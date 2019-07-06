@@ -1,0 +1,170 @@
+.team_name {
+	position: relative;
+	width: 20%;
+	margin: 40px 3%;
+	right: 40px;
+}
+
+.team_name2 {
+	position: relative;
+	width: 20%;
+	margin: 40px 3%;
+	right: 40px;
+	bottom: 250px;
+}
+
+.team_name input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #0000FF;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.team_name2 input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #0000FF;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.ef input[type='text']:focus {
+	border: 1px solid #000000;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(0,0,255, .5);
+}
+
+.ef2 input[type='text']:focus {
+	border: 1px solid #000000;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(255,0,0, .5);
+}
+
+.A {
+    position:relative;
+    left: 60px;
+	bottom: 24px;
+}
+
+.B {
+    position:relative;
+	left: 115px;
+	bottom: 48px;
+}
+
+.C {
+    position:relative;
+	left: 170px;
+	bottom: 72px;
+}
+
+.D {
+    position:relative;
+	left: 225px;
+	bottom: 96px;
+}
+
+.E {
+    position:relative;
+	top: 340px;
+}
+
+.F {
+    position:relative;
+	top: 318px;
+	left: 60px;
+}
+
+.G {
+    position:relative;
+	top: 295px;
+	left: 120px;
+}
+
+.H {
+    position:relative;
+	top: 270px;
+	left: 180px;
+}
+
+.I {
+    position:relative;
+	top: 245px;
+	left: 240px;
+}
+
+.kai {
+	position:relative;
+	bottom: 200px;
+}
+
+.kai2 {
+	position:relative;
+	left: 60px;
+	bottom: 230px;
+}
+
+.kai3 {
+	position:relative;
+	left: 115px;
+	bottom: 260px;
+}
+.kai4 {
+	position:relative;
+	left: 170px;
+	bottom: 290px;
+}
+.kai5 {
+	position:relative;
+	left: 225px;
+	bottom: 320px;
+}
+
+hr.sen {
+	position:relative;
+	bottom: 120px;
+}
+
+.teki {
+	position:relative;
+	bottom: 250px;
+}
+
+.kaiA {
+	position:relative;
+	top: 80px;
+}
+
+.kaiB {
+	position:relative;
+	top: 50px;
+	left: 60px;
+	
+}
+
+.kaiC {
+	position:relative;
+	top: 20px;
+	left: 120px;
+}
+
+.kaiD {
+	position:relative;
+	bottom: 10px;
+	left: 180px;
+}
+
+.kaiE {
+	position:relative;
+	bottom: 40px;
+	left: 240px;
+}
