@@ -1,3 +1,14 @@
+<?php
+session_start();
+//ログイン済みの場合
+if (isset($_SESSION['EMAIL'])) {
+  echo "<a href='/logout.php'>ログアウトはこちら。</a>";
+}
+else{
+ echo'ログインできていません。前のページからやり直してください。';
+ exit;
+}
+?>
 <html>
 	<head>
 <link rel="stylesheet" href="test.css">
@@ -64,4 +75,6 @@
      <input type="submit" value="入力が終わったらクリック">
 </form>
 </body>
+
+<?php require("footer.html"); ?>
 </html>
