@@ -19,5 +19,6 @@ if (isset($_SESSION["EMAIL"])) {
 }
 ?>
 <html>
+<br>
 <a href="http://sportsh.php.xdomain.jp/html.php">TOPページへ戻る</a>
 <html>

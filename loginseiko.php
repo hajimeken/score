@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<head>
+	<title>ログイン成功可否</title>
+    <meta charset="UTF-8">
 <?php
 
 require_once('setuzoku.php');
@@ -17,6 +21,7 @@ try {
 } catch (\Exception $e) {
   echo $e->getMessage() . PHP_EOL;
 }
+
 //emailがDB内に存在しているか確認
 if (!isset($row['email'])) {
   echo 'メールアドレス又はパスワードが間違っています。';

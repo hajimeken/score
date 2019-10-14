@@ -1,0 +1,46 @@
+body {
+  background-image: url("./img/kabegami.jpg.");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+}
+
+#gazou img {
+	width: 50%;
+}
+
+.id {
+	position: relative;
+	top: 200px;
+ }
+ 
+.A {
+  position: relative;
+  top: 20px;
+}
+
+.B {
+  position: relative;
+  top: 20px;
+}
+
+.C {
+  position: relative;
+  top: 20px;
+}
+
+.D {
+  position: relative;
+  top: 35px;
+  
+}
+
+#E {
+  position: relative;
+  top: 35px;
+  left: 150px;
+}
+
+#waku {
+  width: 32%;
+}

@@ -1,25 +1,10 @@
-<?php
-session_start();
-//ログイン済みの場合
-if (isset($_SESSION['EMAIL'])) {
-  echo "<a href='/logout.php'>ログアウトはこちら。</a>";
-}
-else{
- echo'ログインできていません。前のページからやり直してください。';
- exit;
-}
-?>
+
 <html>
 	<head>
 <link rel="stylesheet" href="test.css">
-<link rel="stylesheet" href="./css.css">
-
-<?php require("TOP.html"); ?>
-	<div><img src="./img/font.jpg"></div>
     <title>試合結果</title>
     </head>
 <body>
-
 <h1>自軍チーム名を入力してください</h1>
 <form action="score.php" method="post">
 <div class="team_name">

@@ -80,6 +80,11 @@
                                                                                              
                        
 ?>
+<head>
+<link rel="stylesheet" type="text/css" href="./css.css">
+<div><img src="./img/font.jpg"></div>
+</head>
+<body>
 <div class="baseball game_score">
 <table class="game_box baseball times5">
 <tbody>
@@ -88,6 +93,9 @@
 <tr>
 </tr>
 <tr>
+<br>
+<br>
+<br>
 <table border="2" style="border-collapse: collapse; border-color: red">
 <td class="game_cell_data team_name"><?=$Ateam ?></td>
 <td class="game_cell_data score"><?=$Ascore ?></td>
@@ -122,5 +130,10 @@ else{
 echo "引き分けです。";
 }
 ?>
+<br>
+<a href='/index.php'>入力に戻る場合は、こちら</a>
+<?php require("footer.html"); ?>
+
 </div>
+</body>
 </html>

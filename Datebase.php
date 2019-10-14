@@ -30,6 +30,7 @@ try {
   $stmt = $pdo->prepare("insert into userDeta(email, password) value(?, ?)");
   $stmt->execute([$email, $password]);
   echo '登録完了';
+  <a href="http://sportsh.php.xdomain.jp/login.php">ログインページへ戻る</a>
 } catch (\Exception $e) {
   echo '登録済みのメールアドレスです。';
 }

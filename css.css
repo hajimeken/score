@@ -1,12 +1,71 @@
+
+nav{
+border-bottom: 5px solid #ccc;
+position: relative;
+left: 50px;
+}
+
+nav ul{
+position: absolute;
+left:10%;
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+text-align: center;
+}
+
+nav ul li{
+display: table-cell;
+min-width: 50px;
+}
+nav ul li a{
+display: block;
+width: 100%;
+height: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+
+nav ul li.current{
+font-weight: bold;
+border-top: 5px solid #00B0F0;
+}
+
+nav ul li.current a{
+color: #00B0F0;
+}
+
+nav ul li a:hover{
+color: #0089BB;
+background-color: #FBFBDD;
+}
+
+nav ul li:hover{
+border-top: 5px solid #F8E750;
+}
+
+ul li:before{ 
+  display:inline-block; 
+  vertical-align: middle;
+  content:'';
+  width:1em;
+  height: 1em;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
 .self {
 
 text-align:center;
 	
 }
 
-/* スライダーで表示する画像のサイズを指定しています。 */
+/* スライダーで表示する画像のサイズを指定 */
 .your-class div img{
-	height: 400px;
+	height: 700px;
 	width: 1400px;
 
 }
@@ -18,42 +77,11 @@ text-align:center;
   
 }
 
-@media screen and (max-width: 480px) {
-
-
-/* レスポンシブテンプレートでの画像の横並べとスマホで解除 */
-
-background-color: #00FF00;
-
-.image {
-    margin: auto;
-    text-align: center;
-    width: 50%;
+.top {
+  position: relative;
+  bottom: 140px;
 }
-.image .img_1 {
-    display: inline-block;
-    padding: 10px;
-}
-.image .img_2 {
-    display: inline-block;
-    padding: 10px;
-}
-.image .img_3 {
-    display: inline-block;
-    padding: 10px;
-}
-}
-
-
-@media screen and (max-width: 750px) {
-
- .image {
-  width: auto ;
-  padding: 0 ;		/* 余白 */
-  border: none ;	
-  
-}
-}
+ 
 
 .footer {
   background-color: #2f5167;
@@ -61,31 +89,14 @@ background-color: #00FF00;
   height: 120px;
   padding: 150px;
   position:relative;
-  top:350px;
-}
-
-.footer-logo {
-  text-align: left;
-  position:relative;
-  bottom: 120px;
-  font-size: 32px;
-}
-
-.footer-list {
-	position:relative;
-	left: 70px;
-	text-align: right;
-}
-
-.footer-list li {
-  padding-bottom: 20px;
+  top: 250px;
 }
 
 
 .msr_newslist04 {
   border-top: 5px solid #000000;
   width: 100%;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 .msr_newslist04 li {
   border-bottom: 1px solid #000000;
